@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group android:checkableBehavior="2">
+        <item android:icon="@drawable/ic_home" android:id="@id/nav_home" android:checked="true" android:title="Home" />
+        <item android:icon="@drawable/ic_news" android:id="@id/nav_news" android:title="News" />
+        <item android:icon="@drawable/ic_notices" android:id="@id/nav_notices" android:title="Notices" />
+        <item android:icon="@drawable/ic_downloads" android:id="@id/nav_downloads" android:title="Downloads" />
+        <item android:icon="@drawable/ic_events" android:id="@id/nav_events" android:title="Events" />
+        <item android:icon="@drawable/ic_papers" android:id="@id/nav_quespapers" android:title="Conversations" />
+    </group>
+    <item android:title="Other">
+        <menu>
+            <item android:id="@id/Chanakya_Portal" android:title="Chanakya Portal" />
+            <item android:id="@id/College_website" android:title="NIT Website" />
+            <item android:id="@id/corona" android:title="Corona" />
+            <item android:id="@id/melange" android:title="Melange" />
+            <item android:id="@id/about_us" android:title="ABOUT" />
+        </menu> />
+</menu>

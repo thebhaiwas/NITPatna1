@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/home_main" android:layout_width="-1" android:layout_height="-1" android:weightSum="4.0"
+    <LinearLayout android:orientation="1" android:background="@color/yellow" android:padding="50dp" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="30dp" android:gravity="11" android:layout_width="-1" android:layout_height="-2" android:text="WELCOME" />
+        <TextView android:gravity="11" android:layout_width="-1" android:layout_height="-2" android:text="to NIT PATNA" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:weightSum="4.0"
+        <LinearLayout android:gravity="11" android:orientation="1" android:background="@color/grey" android:layout_width="0dp" android:layout_height="-2" android:layout_margin="10dp" android:layout_weight="2.0" android:onClick="open_notices">
+            <ImageView android:paddingTop="30dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_notices" />
+            <TextView android:gravity="11" android:paddingTop="10dp" android:paddingBottom="30dp" android:layout_width="-1" android:layout_height="-1" android:text="NOTICES" />
+        </LinearLayout>
+        <LinearLayout android:gravity="11" android:orientation="1" android:background="@color/grey" android:layout_width="0dp" android:layout_height="-2" android:layout_margin="10dp" android:layout_weight="2.0" android:onClick="open_downloads">
+            <ImageView android:paddingTop="30dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_downloads" />
+            <TextView android:gravity="11" android:paddingTop="10dp" android:paddingBottom="30dp" android:layout_width="-1" android:layout_height="-1" android:text="DOWNLOAD" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:weightSum="4.0"
+        <LinearLayout android:gravity="11" android:orientation="1" android:background="@color/grey" android:layout_width="0dp" android:layout_height="-2" android:layout_margin="10dp" android:layout_weight="2.0" android:onClick="open_news">
+            <ImageView android:paddingTop="30dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_news" />
+            <TextView android:gravity="11" android:paddingTop="10dp" android:paddingBottom="30dp" android:layout_width="-1" android:layout_height="-1" android:text="NEWS" />
+        </LinearLayout>
+        <LinearLayout android:gravity="11" android:orientation="1" android:background="@color/grey" android:layout_width="0dp" android:layout_height="-2" android:layout_margin="10dp" android:layout_weight="2.0" android:onClick="open_events">
+            <ImageView android:paddingTop="30dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_events" />
+            <TextView android:gravity="11" android:paddingTop="10dp" android:paddingBottom="30dp" android:layout_width="-1" android:layout_height="-1" android:text="EVENTS" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

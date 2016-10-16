@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:id="@id/action_settings" app:orderInCategory="100" app:title="Feedback" app:showAsAction="0" />
+    <item app:id="@id/action_terms_of_use" app:orderInCategory="100" app:title="Terms of Use" app:showAsAction="0" />
+    <item app:id="@id/check_for_update_item" app:orderInCategory="100" app:title="Check for Update" app:showAsAction="0" />
+    <item app:icon="@drawable/ic_replay" app:id="@id/action_refresh" app:orderInCategory="100" app:title="refresh" app:showAsAction="1" />
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-1" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <ScrollView app:layout_width="-1" app:layout_height="-1" app:fillViewport="true">
+        <LinearLayout app:orientation="1" app:id="@id/wrapper_container" app:layout_width="-1" app:layout_height="-1" />
+    </ScrollView>
+</RelativeLayout>
